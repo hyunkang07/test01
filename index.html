@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>우리의 결혼식에 초대합니다 | 2025년 09월 25일</title>
+    
+    <!-- SEO 메타 태그 -->
+    <meta name="description" content="2025년 09월 25일 강남웨딩홀에서 열리는 결혼식에 여러분을 초대합니다. 벚꽃이 흩날리는 아름다운 청첩장으로 축복해주세요.">
+    <meta name="keywords" content="결혼식, 청첩장, 웨딩, 강남웨딩홀, 2025년, 9월, 25일, 벚꽃, 초대장">
+    <meta name="author" content="신랑 신부">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph 메타 태그 (소셜 미디어 공유용) -->
+    <meta property="og:title" content="우리의 결혼식에 초대합니다">
+    <meta property="og:description" content="2025년 09월 25일 강남웨딩홀에서 열리는 결혼식에 여러분을 초대합니다.">
+    <meta property="og:image" content="assets/images/img01.jpg">
+    <meta property="og:url" content="">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="결혼식 청첩장">
+    <meta property="og:locale" content="ko_KR">
+    
+    <!-- Twitter Card 메타 태그 -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="우리의 결혼식에 초대합니다">
+    <meta name="twitter:description" content="2025년 09월 25일 강남웨딩홀에서 열리는 결혼식에 여러분을 초대합니다.">
+    <meta name="twitter:image" content="assets/images/img01.jpg">
+    
+    <!-- 추가 메타 태그 -->
+    <meta name="theme-color" content="#ffb6c1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="결혼식 청첩장">
+    
+    <!-- 파비콘 -->
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💒</text></svg>">
+    
+    <!-- 구조화된 데이터 (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Event",
+        "name": "결혼식",
+        "description": "2025년 09월 25일 강남웨딩홀에서 열리는 결혼식",
+        "startDate": "2025-09-25T14:00:00+09:00",
+        "endDate": "2025-09-25T18:00:00+09:00",
+        "location": {
+            "@type": "Place",
+            "name": "강남웨딩홀",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "테헤란로 123, 3층",
+                "addressLocality": "강남구",
+                "addressRegion": "서울특별시",
+                "addressCountry": "KR"
+            },
+            "telephone": "02-1234-5678"
+        },
+        "organizer": {
+            "@type": "Person",
+            "name": "신랑 신부"
+        }
+    }
+    </script>
+    
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+    <!-- 벚꽃 애니메이션 캔버스 -->
+    <canvas id="sakuraCanvas"></canvas>
+
+    <main>
+        <section class="hero-section">
+            <img src="assets/images/img01.jpg" alt="신랑 신부 사진" loading="eager">
+        </section>
+
+        <section class="about-section fade-in">
+            <h2>저희, 결혼합니다</h2>
+            <p>
+                오랜 시간 함께한 사랑의 결실을 맺으려 합니다.<br>
+                새로운 출발을 축복해 주시면 감사하겠습니다.
+            </p>
+        </section>
+
+        <section class="photo-section slide-in-left">
+            <img src="assets/images/img02.jpg" alt="결혼사진" loading="lazy">
+        </section>
+        
+        <section class="calendar-section scale-in">
+            <h2>결혼식 날짜</h2>
+            <div class="calendar-container">
+                <div id="calendar"></div>
+            </div>
+            <p class="wedding-date">2025년 09월 25일</p>
+        </section>
+
+        <section class="gallery-section fade-in">
+            <h2>갤러리</h2>
+            <div class="gallery-grid">
+                <img src="assets/images/img01.jpg" alt="갤러리 사진 1" class="gallery-img" data-index="0" loading="lazy">
+                <img src="assets/images/img02.jpg" alt="갤러리 사진 2" class="gallery-img" data-index="1" loading="lazy">
+                <img src="assets/images/img03.jpg" alt="갤러리 사진 3" class="gallery-img" data-index="2" loading="lazy">
+                <img src="assets/images/img04.jpg" alt="갤러리 사진 4" class="gallery-img" data-index="3" loading="lazy">
+                <img src="assets/images/img05.jpg" alt="갤러리 사진 5" class="gallery-img" data-index="4" loading="lazy">
+                <img src="assets/images/img06.jpg" alt="갤러리 사진 6" class="gallery-img" data-index="5" loading="lazy">
+                <img src="assets/images/img07.jpg" alt="갤러리 사진 7" class="gallery-img" data-index="6" loading="lazy">
+                <img src="assets/images/img08.jpg" alt="갤러리 사진 8" class="gallery-img" data-index="7" loading="lazy">
+                <img src="assets/images/img09.jpg" alt="갤러리 사진 9" class="gallery-img" data-index="8" loading="lazy">
+            </div>
+        </section>
+
+        <!-- 갤러리 모달 -->
+        <div id="galleryModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <img id="modalImage" src="" alt="">
+                <div class="modal-nav">
+                    <button id="prevBtn" class="nav-btn">&#10094;</button>
+                    <button id="nextBtn" class="nav-btn">&#10095;</button>
+                </div>
+            </div>
+        </div>
+
+        <section class="rsvp-section slide-in-right">
+            <h2>참석 여부</h2>
+            <div class="rsvp-container">
+                <p class="rsvp-text">소중한 분들의 참석 여부를 알려주시면<br>더욱 의미 있는 자리가 될 것 같습니다.</p>
+                <form id="rsvpForm" class="rsvp-form">
+                    <div class="form-group">
+                        <label for="guestName">이름</label>
+                        <input type="text" id="guestName" name="guestName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="guestCount">참석 인원</label>
+                        <select id="guestCount" name="guestCount" required>
+                            <option value="">선택해주세요</option>
+                            <option value="1">1명</option>
+                            <option value="2">2명</option>
+                            <option value="3">3명</option>
+                            <option value="4">4명</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="attendance">참석 여부</label>
+                        <div class="radio-group">
+                            <label class="radio-label">
+                                <input type="radio" name="attendance" value="yes" required>
+                                <span class="radio-text">참석합니다</span>
+                            </label>
+                            <label class="radio-label">
+                                <input type="radio" name="attendance" value="no" required>
+                                <span class="radio-text">참석하지 않습니다</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">전하실 말씀 (선택사항)</label>
+                        <textarea id="message" name="message" rows="3" placeholder="축하의 말씀을 남겨주세요"></textarea>
+                    </div>
+                    <button type="submit" class="rsvp-submit">전송하기</button>
+                </form>
+                <div id="rsvpSuccess" class="rsvp-success" style="display: none;">
+                    <h3>감사합니다!</h3>
+                    <p>참석 여부가 성공적으로 전송되었습니다.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="map-section fade-in">
+            <h2>오시는 길</h2>
+            <div class="venue-info">
+                <h3>강남웨딩홀</h3>
+                <p class="venue-address">📍 서울특별시 강남구 테헤란로 123, 3층</p>
+                <p class="venue-phone">📞 02-1234-5678</p>
+                <p class="venue-time">⏰ 2025년 09월 25일 오후 2시</p>
+            </div>
+            <div id="map" style="width:100%;height:350px;"></div>
+            <div class="map-instructions">
+                <h4>교통편 안내</h4>
+                <ul>
+                    <li><strong>지하철:</strong> 2호선 강남역 3번 출구 도보 5분</li>
+                    <li><strong>버스:</strong> 146, 240, 341번 강남역 정류장 하차</li>
+                    <li><strong>주차:</strong> 건물 지하 주차장 이용 (2시간 무료)</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    
+    <script src="assets/js/script.js"></script>
+
+    <!-- 벚꽃 애니메이션 스크립트 -->
+    <script>
+        // 벚꽃 애니메이션 코드
+        const canvas = document.getElementById('sakuraCanvas');
+        const ctx = canvas.getContext('2d');
+
+        let width = window.innerWidth;
+        let height = window.innerHeight;
+        canvas.width = width;
+        canvas.height = height;
+
+        const petals = [];
+        const petalCount = 50;
+
+        class Petal {
+            constructor() {
+                this.x = Math.random() * width;
+                this.y = Math.random() * height;
+                this.radius = Math.random() * 4 + 1;
+                this.speedX = Math.random() * 2 - 1;
+                this.speedY = Math.random() * 1 + 1;
+                this.alpha = Math.random() * 0.5 + 0.5;
+                this.rotation = Math.random() * Math.PI * 2;
+                this.rotationSpeed = Math.random() * 0.02 - 0.01;
+            }
+
+            draw() {
+                ctx.save();
+                ctx.translate(this.x, this.y);
+                ctx.rotate(this.rotation);
+                ctx.beginPath();
+                ctx.arc(0, 0, this.radius, 0, Math.PI * 2);
+                ctx.fillStyle = `rgba(255, 182, 193, ${this.alpha})`;
+                ctx.fill();
+                ctx.restore();
+            }
+
+            update() {
+                this.x += this.speedX;
+                this.y += this.speedY;
+                this.rotation += this.rotationSpeed;
+
+                if (this.y > height) {
+                    this.y = -this.radius;
+                    this.x = Math.random() * width;
+                }
+                if (this.x < -this.radius) {
+                    this.x = width + this.radius;
+                }
+                if (this.x > width + this.radius) {
+                    this.x = -this.radius;
+                }
+            }
+        }
+
+        function initSakura() {
+            for (let i = 0; i < petalCount; i++) {
+                petals.push(new Petal());
+            }
+        }
+
+        function animateSakura() {
+            ctx.clearRect(0, 0, width, height);
+            petals.forEach(petal => {
+                petal.update();
+                petal.draw();
+            });
+            requestAnimationFrame(animateSakura);
+        }
+
+        window.addEventListener('resize', () => {
+            width = window.innerWidth;
+            height = window.innerHeight;
+            canvas.width = width;
+            canvas.height = height;
+        });
+
+        // 벚꽃 애니메이션 시작
+        initSakura();
+        animateSakura();
+    </script>
+
+    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=58f2a29be762fff79f7208c20bcc3fe0"></script>
+
+    <script>
+        // 카카오맵 API가 로드된 후에 지도를 초기화
+        function initMap() {
+            var mapContainer = document.getElementById('map'), // 지도를 표시할 div 
+                mapOption = { 
+                    center: new kakao.maps.LatLng(37.494366, 127.014527), // 지도의 중심좌표
+                    level: 4 // 지도의 확대 레벨
+                };
+
+            var map = new kakao.maps.Map(mapContainer, mapOption); // 지도를 생성합니다
+
+            var imageSrc = 'https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/marker_red.png', // 마커이미지의 주소입니다    
+                imageSize = new kakao.maps.Size(64, 69), // 마커이미지의 크기입니다
+                imageOption = {offset: new kakao.maps.Point(27, 69)}; // 마커이미지의 옵션입니다. 마커의 좌표와 일치시킬 이미지 안에서의 좌표를 설정합니다.
+                
+            // 마커의 이미지정보를 가지고 있는 마커이미지를 생성합니다
+            var markerImage = new kakao.maps.MarkerImage(imageSrc, imageSize, imageOption),
+                markerPosition = new kakao.maps.LatLng(37.494366, 127.014527); // 마커가 표시될 위치입니다
+
+            // 마커를 생성합니다
+            var marker = new kakao.maps.Marker({
+                position: markerPosition, 
+                image: markerImage // 마커이미지 설정 
+            });
+
+            // 마커가 지도 위에 표시되도록 설정합니다
+            marker.setMap(map);
+        }
+
+        // 카카오맵 API 로드 완료를 기다림
+        if (typeof kakao !== 'undefined' && kakao.maps) {
+            initMap();
+        } else {
+            // API가 아직 로드되지 않았다면 로드 완료를 기다림
+            window.addEventListener('load', function() {
+                if (typeof kakao !== 'undefined' && kakao.maps) {
+                    initMap();
+                } else {
+                    // 추가 대기 후 재시도
+                    setTimeout(function() {
+                        if (typeof kakao !== 'undefined' && kakao.maps) {
+                            initMap();
+                        }
+                    }, 1000);
+                }
+            });
+        }
+    </script>
+</body>
+</html>
